@@ -1,6 +1,6 @@
 # React Native CSS modules with CSS Media Queries example
 
-This example app re-implements ["Responsive Full Width Tabs" demo](https://tympanus.net/Blueprints/FullWidthTabs/) from [Tympanus Codrops website](https://tympanus.net/codrops/) in React Native.
+This example app re-implements ["Responsive Full Width Tabs" demo](https://tympanus.net/Blueprints/FullWidthTabs/) from Tympanus Codrops website in React Native.
 
 The example app should look exactly the same in both browser and React Native.
 
