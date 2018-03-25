@@ -4,7 +4,7 @@ This example app re-implements ["Responsive Full Width Tabs" demo](https://tympa
 
 The example app should look exactly the same in both browser and React Native.
 
-To see code examples, have a look at `styles.css` and `App.js` inside `src` folder.
+To see code examples, have a look at [styles.css](/src/styles.css) and [App.js](/src/App.js) inside `src` folder.
 
 Have a look at the documentation if you want to add React Native CSS modules to your own project:
 
