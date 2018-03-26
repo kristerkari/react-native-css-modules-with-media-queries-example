@@ -12,6 +12,25 @@ To see code examples, have a look at [styles.css](/src/styles.css) and [App.js](
 
 ## Example App features
 
+#### React Native and Web
+
+* Share CSS Media Queries in both platforms.
+* Allows you to use both `className={myStyles.myClass}` and `style={{ color: "red" }}` properties on React Native elements such as `<Text>` or `<View>`.
+* [Supports 2 syntaxes for using multiple CSS classes](https://github.com/kristerkari/babel-plugin-react-native-classname-to-style#multiple-classes) that work with React Native CSS modules and regular CSS modules.
+* CSS Hot reloading.
+* Uses [Sass](src/Buttons.scss) and [CSS](src/ProfileCard.css) for styles, but you can choose which one to use.
+* [Uses custom stylelint config for React Native CSS modules](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
+
+#### React Native specific
+
+* Uses [React Native CSS modules](https://github.com/kristerkari/react-native-css-modules)
+* You can use platform specific file extensions, e.g. `styles.ios.scss`, `styles.android.scss`, `styles.native.scss`.
+
+#### Web specific
+
+* Uses [Webpack](https://webpack.js.org/) + [CSS modules](https://github.com/css-modules/css-modules).
+* Uses [React Native for Web](https://github.com/necolas/react-native-web) to make most React Native elements work in the browser.
+
 ## Try it
 
 ### Step 1: Install depencies to run React Native
