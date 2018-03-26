@@ -5,7 +5,7 @@ module.exports = {
     return blacklist([/react-native\/local-cli\/core\/__fixtures__.*/]);
   },
   getTransformModulePath() {
-    return require.resolve("./rn-transformer.js");
+    return require.resolve("react-native-css-transformer");
   },
   getSourceExts() {
     return ["css"];

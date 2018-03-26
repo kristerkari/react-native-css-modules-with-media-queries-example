@@ -7204,6 +7204,13 @@ react-native-css-media-query-processor@^0.13.1:
     deepmerge "^2.1.0"
     micro-memoize "^2.0.0"
 
+react-native-css-transformer@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-css-transformer/-/react-native-css-transformer-1.1.0.tgz#2e5cad241730b6d516607449e00bba0df25acc49"
+  dependencies:
+    css-to-react-native-transform "^1.4.0"
+    semver "^5.4.1"
+
 react-native-known-styling-properties@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/react-native-known-styling-properties/-/react-native-known-styling-properties-1.0.3.tgz#321eebd8bc4748a33e43aea4ad82fbfa033fd5ed"
