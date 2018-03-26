@@ -1,16 +1,18 @@
 # React Native CSS modules with CSS Media Queries example
 
+**Quick links:** **[Features](#example-app-features)** • **[Screenshots](#screenshots)** • **[Documentation](https://github.com/kristerkari/react-native-css-modules#documentation)** • **[Try it](#try-it)**
+
+<a href="https://facebook.github.io/react-native/"><img src="images/react-native-logo.png" width="160"></a><img src="images/plus.svg" width="100"><a href="https://github.com/css-modules/css-modules"><img src="images/css-modules-logo.svg" width="170"></a>
+
 This example app re-implements ["Responsive Full Width Tabs" demo](https://tympanus.net/Blueprints/FullWidthTabs/) from Tympanus Codrops website in React Native.
 
 The example app should look and work exactly the same way in both browser and React Native.
 
-To see code examples, have a look at [styles.css](/src/styles.css) and [App.js](/src/App.js) inside `src` folder.
+To see code examples, have a look at [styles.css](/src/styles.css) and [App.js](/src/App.js) inside [src](/src) folder.
 
-Have a look at the documentation if you want to add React Native CSS modules to your own project:
+## Example App features
 
-* [React Native CSS modules](https://github.com/kristerkari/react-native-css-modules#documentation)
-
-## Setup
+## Try it
 
 ### Step 1: Install depencies to run React Native
 
@@ -79,3 +81,5 @@ or if you use Yarn:
 ```sh
 yarn ios
 ```
+
+## Screenshots
