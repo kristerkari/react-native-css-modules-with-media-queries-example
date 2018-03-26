@@ -51,7 +51,13 @@
   "stylelint": {
     "extends": "stylelint-config-react-native-css-modules",
     "rules": {
-      "selector-class-pattern": "^[a-z][a-zA-Z0-9]*$"
+      "selector-class-pattern": "^[a-z][a-zA-Z0-9]*$",
+      "declaration-block-no-duplicate-properties": true,
+      "no-duplicate-selectors": true,
+      "no-extra-semicolons": true,
+      "unit-whitelist": ["px", "rem", "%"],
+      "no-eol-whitespace": true,
+      "no-missing-end-of-source-newline": true
     }
   }
 }
