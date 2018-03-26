@@ -14,7 +14,7 @@ To see code examples, have a look at [styles.css](/src/styles.css) and [App.js](
 
 #### React Native and Web
 
-* Share CSS Media Queries in both platforms.
+* Uses the same CSS Media Queries in both React Native and Web.
 * Allows you to use both `className={myStyles.myClass}` and `style={{ color: "red" }}` properties on React Native elements such as `<Text>` or `<View>`.
 * [Supports 2 syntaxes for using multiple CSS classes](https://github.com/kristerkari/babel-plugin-react-native-classname-to-style#multiple-classes) that work with React Native CSS modules and regular CSS modules.
 * CSS Hot reloading.
