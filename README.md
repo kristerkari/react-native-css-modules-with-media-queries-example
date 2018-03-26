@@ -2,7 +2,7 @@
 
 This example app re-implements ["Responsive Full Width Tabs" demo](https://tympanus.net/Blueprints/FullWidthTabs/) from Tympanus Codrops website in React Native.
 
-The example app should look exactly the same in both browser and React Native.
+The example app should look and work exactly the same way in both browser and React Native.
 
 To see code examples, have a look at [styles.css](/src/styles.css) and [App.js](/src/App.js) inside `src` folder.
 
