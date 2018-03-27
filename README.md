@@ -8,7 +8,7 @@ This example app re-implements ["Responsive Full Width Tabs" demo](https://tympa
 
 The example app should look and work exactly the same way in both browser and React Native.
 
-To see code examples, have a look at [styles.css](/src/styles.css) and [App.js](/src/App.js) inside [src](/src) folder.
+To see code examples, have a look at [styles.css](/src/styles.css#L222) and [App.js](/src/App.js) inside [src](/src) folder.
 
 ## Example App features
 
