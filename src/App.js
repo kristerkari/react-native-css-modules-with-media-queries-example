@@ -14,7 +14,7 @@ import {
   TouchableHighlight,
   Linking,
 } from "react-native";
-const styles = require("./styles.css");
+import styles from "./styles.css";
 import { Icon } from "./Icon";
 import { Content, Tabs, HeaderNavIcons } from "./content";
 

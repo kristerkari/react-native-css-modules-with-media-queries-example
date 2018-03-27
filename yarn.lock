@@ -438,7 +438,7 @@ babel-core@^6.0.0, babel-core@^6.24.1, babel-core@^6.26.0, babel-core@^6.7.2:
     slash "^1.0.0"
     source-map "^0.5.6"
 
-babel-generator@^6.18.0, babel-generator@^6.26.0, babel-generator@^6.26.1:
+babel-generator@^6.18.0, babel-generator@^6.26.0:
   version "6.26.1"
   resolved "https://registry.yarnpkg.com/babel-generator/-/babel-generator-6.26.1.tgz#1844408d3b8f0d35a404ea7ac180f087a601bd90"
   dependencies:
@@ -622,11 +622,10 @@ babel-plugin-jest-hoist@^22.4.3:
   version "22.4.3"
   resolved "https://registry.yarnpkg.com/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-22.4.3.tgz#7d8bcccadc2667f96a0dcc6afe1891875ee6c14a"
 
-babel-plugin-react-native-classname-to-dynamic-style@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-classname-to-dynamic-style/-/babel-plugin-react-native-classname-to-dynamic-style-0.10.0.tgz#146f4eeb79259600a09a0c83f3363e12566f050a"
+babel-plugin-react-native-classname-to-dynamic-style@^0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-classname-to-dynamic-style/-/babel-plugin-react-native-classname-to-dynamic-style-0.10.1.tgz#7b65b487e8abdc12bc5d36a628152eeea6d330c4"
   dependencies:
-    babel-generator "^6.26.1"
     react-native-css-media-query-processor "^0.13.1"
 
 babel-plugin-react-transform@^3.0.0:
