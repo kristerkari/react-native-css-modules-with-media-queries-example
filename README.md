@@ -102,3 +102,27 @@ yarn ios
 ```
 
 ## Screenshots
+
+### iPhone 8
+
+**Left: iOS Safari browser**<br>
+**Right: React Native**
+
+<img src="screenshots/iphone-browser-portrait.png" width="50%"><img src="screenshots/iphone-native-portrait.png" width="50%">
+<img src="screenshots/iphone-browser-landscape.png" width="50%"><img src="screenshots/iphone-native-landscape.png" width="50%">
+
+### iPad 5G
+
+**Left: iOS Safari browser**<br>
+**Right: React Native**
+
+<img src="screenshots/ipad-browser-portrait.png" width="50%"><img src="screenshots/ipad-native-portrait.png" width="50%">
+<img src="screenshots/ipad-browser-landscape.png" width="50%"><img src="screenshots/ipad-native-landscape.png" width="50%">
+
+### Android Nexus 5X
+
+**Left: Android Chrome browser**<br>
+**Right: React Native**
+
+<img src="screenshots/android-browser-portrait.png" width="50%"><img src="screenshots/android-native-portrait.png" width="50%">
+<img src="screenshots/android-browser-landscape.png" width="50%"><img src="screenshots/android-native-landscape.png" width="50%">
