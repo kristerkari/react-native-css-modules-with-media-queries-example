@@ -1,4 +1,4 @@
-# React Native CSS modules with CSS Media Queries example
+# React Native CSS modules with CSS Media Queries
 
 **Quick links:** **[Features](#example-app-features)** • **[Screenshots](#screenshots)** • **[Documentation](https://github.com/kristerkari/react-native-css-modules#documentation)** • **[Try it](#try-it)**
 
