@@ -55,7 +55,7 @@ cd react-native-css-modules-with-media-queries-example
 npm install
 ```
 
-### Step 4: Run React native packager
+### Step 4: Run React Native packager
 
 You can open a new terminal tab for the packager.
 
@@ -63,7 +63,7 @@ You can open a new terminal tab for the packager.
 npm start
 ```
 
-### Step 5: Run App on Android/iOS/Web
+### Step 5: Run app on Android, iOS or Web
 
 First make sure that your Android emulator or iOS simulator is working, then:
 
@@ -82,6 +82,8 @@ or
 ```sh
 npm run web
 ```
+
+Web app can be accessed by opening `http://localhost:8080` in a browser.
 
 or if you use Yarn:
 
