@@ -54,24 +54,12 @@ cd react-native-css-modules-with-media-queries-example
 npm install
 ```
 
-or if you use Yarn:
-
-```sh
-yarn install
-```
-
 ### Step 4: Run React native packager
 
 You can open a new terminal tab for the packager.
 
 ```sh
 npm start
-```
-
-or if you use Yarn:
-
-```sh
-yarn start
 ```
 
 ### Step 5: Run App on Android/iOS/Web
