@@ -41,17 +41,14 @@ Make sure that you have `react-native-cli` installed and [XCode](https://develop
 
 * Go to "Building Projects with Native Code" tab and follow the guide: https://facebook.github.io/react-native/docs/getting-started.html
 
-### Step 2: Clone this repo
+### Step 2: Clone the repo and move to project
 
 ```sh
 git clone git@github.com:kristerkari/react-native-css-modules-with-media-queries-example.git
-```
-
-### Step 3: Move to project and install project dependencies
-
-```sh
 cd react-native-css-modules-with-media-queries-example
 ```
+
+### Step 3: Install project dependencies
 
 ```sh
 npm install
