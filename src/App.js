@@ -1,9 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { PureComponent } from "react";
 import {
   Text,
@@ -12,7 +6,7 @@ import {
   Image,
   ScrollView,
   TouchableHighlight,
-  Linking,
+  Linking
 } from "react-native";
 import styles from "./styles.css";
 import { Icon } from "./Icon";
@@ -54,7 +48,7 @@ export class App extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      selected: props.initialSelected,
+      selected: props.initialSelected
     };
   }
 
