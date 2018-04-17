@@ -11,12 +11,13 @@
     "android": "react-native run-android"
   },
   "dependencies": {
-    "react": "16.3.1",
-    "react-dom": "^16.3.1",
+    "react": "16.3.2",
+    "react-art": "^16.3.2",
+    "react-dom": "^16.3.2",
     "react-native": "0.55.2",
     "react-native-orientation-change-provider": "^0.11.2",
     "react-native-vector-icons": "^4.6.0",
-    "react-native-web": "^0.5.4",
+    "react-native-web": "^0.6.0",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2"
   },
@@ -35,13 +36,13 @@
     "lodash": "^4.17.5",
     "react-hot-loader": "^4.0.1",
     "react-native-css-transformer": "^1.1.0",
-    "react-test-renderer": "16.3.1",
+    "react-test-renderer": "16.3.2",
     "style-loader": "^0.20.3",
     "stylelint": "^9.2.0",
     "stylelint-config-react-native-css-modules": "^1.4.0",
     "stylelint-react-native": "^1.1.0",
     "url-loader": "^1.0.1",
-    "webpack": "^4.5.0",
+    "webpack": "^4.6.0",
     "webpack-cli": "^2.0.14",
     "webpack-dev-server": "^3.1.3"
   },
