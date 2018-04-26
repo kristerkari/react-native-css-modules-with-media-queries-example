@@ -14,7 +14,7 @@
     "react": "16.3.2",
     "react-art": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-native": "0.55.2",
+    "react-native": "0.55.3",
     "react-native-orientation-change-provider": "^0.11.2",
     "react-native-vector-icons": "^4.6.0",
     "react-native-web": "^0.6.0",
