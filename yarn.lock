@@ -1160,11 +1160,11 @@ babel-plugin-jest-hoist@^22.4.3:
   version "22.4.3"
   resolved "https://registry.yarnpkg.com/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-22.4.3.tgz#7d8bcccadc2667f96a0dcc6afe1891875ee6c14a"
 
-babel-plugin-react-native-classname-to-dynamic-style@^0.10.1:
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-classname-to-dynamic-style/-/babel-plugin-react-native-classname-to-dynamic-style-0.10.1.tgz#7b65b487e8abdc12bc5d36a628152eeea6d330c4"
+babel-plugin-react-native-classname-to-dynamic-style@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-classname-to-dynamic-style/-/babel-plugin-react-native-classname-to-dynamic-style-0.11.0.tgz#dcf4d8897584a3161d4fa98faa0bbec81579d3e9"
   dependencies:
-    react-native-css-media-query-processor "^0.13.1"
+    react-native-css-media-query-processor "^0.14.0"
 
 babel-plugin-react-transform@^3.0.0:
   version "3.0.0"
@@ -6162,9 +6162,9 @@ metro@^0.30.0:
     xpipe "^1.0.5"
     yargs "^9.0.0"
 
-micro-memoize@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/micro-memoize/-/micro-memoize-2.0.0.tgz#e7c88ed01be737f1117f18b1ca3e1940a0d14f97"
+micro-memoize@^2.0.1:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/micro-memoize/-/micro-memoize-2.0.3.tgz#5122131971eae6c69249a8a63a91b7b5cee20111"
 
 micromatch@^2.1.5, micromatch@^2.3.11, micromatch@^2.3.7:
   version "2.3.11"
@@ -7654,12 +7654,12 @@ react-is@^16.3.2:
   version "16.3.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.3.2.tgz#f4d3d0e2f5fbb6ac46450641eb2e25bf05d36b22"
 
-react-native-css-media-query-processor@^0.13.1:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/react-native-css-media-query-processor/-/react-native-css-media-query-processor-0.13.1.tgz#576dcd6320c484043ba815e6ea7c756c1c638056"
+react-native-css-media-query-processor@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/react-native-css-media-query-processor/-/react-native-css-media-query-processor-0.14.0.tgz#e99f13c721dbf92b522bd4f1116c0da4fb54f8fa"
   dependencies:
     deepmerge "^2.1.0"
-    micro-memoize "^2.0.0"
+    micro-memoize "^2.0.1"
 
 react-native-css-transformer@^1.1.0:
   version "1.1.0"
