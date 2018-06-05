@@ -1279,11 +1279,11 @@ babel-plugin-jest-hoist@^23.0.0:
   version "23.0.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-23.0.0.tgz#e61e68799f743391a1e6306ee270477aacf946c8"
 
-babel-plugin-react-native-classname-to-dynamic-style@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-classname-to-dynamic-style/-/babel-plugin-react-native-classname-to-dynamic-style-0.11.0.tgz#dcf4d8897584a3161d4fa98faa0bbec81579d3e9"
+babel-plugin-react-native-classname-to-dynamic-style@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-classname-to-dynamic-style/-/babel-plugin-react-native-classname-to-dynamic-style-0.20.0.tgz#ead9e74d91403f04b88c9b5c75a0767c741a51eb"
   dependencies:
-    react-native-css-media-query-processor "^0.14.0"
+    react-native-dynamic-style-processor "^0.10.0"
 
 babel-plugin-react-transform@^3.0.0:
   version "3.0.0"
@@ -2917,21 +2917,25 @@ css-selector-tokenizer@^0.7.0:
     fastparse "^1.1.1"
     regexpu-core "^1.0.0"
 
-css-to-react-native-transform@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.4.0.tgz#4bb4575e15461f7e117bf15bf10d04ec0f81bb17"
+css-to-react-native-transform@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/css-to-react-native-transform/-/css-to-react-native-transform-1.6.0.tgz#1b4088c6bdb23083d88953b6f454e35c88c33f0a"
   dependencies:
     css "^2.2.1"
     css-mediaquery "^0.1.2"
-    css-to-react-native "^2.1.2"
+    css-to-react-native "^2.2.0"
 
-css-to-react-native@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/css-to-react-native/-/css-to-react-native-2.1.2.tgz#c06d628467ef961c85ec358a90f3c87469fb0095"
+css-to-react-native@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/css-to-react-native/-/css-to-react-native-2.2.0.tgz#d524ef7f39a2747a8914e86563669ba35b7cf2e7"
   dependencies:
     css-color-keywords "^1.0.0"
     fbjs "^0.8.5"
     postcss-value-parser "^3.3.0"
+
+css-viewport-units-transform@^0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/css-viewport-units-transform/-/css-viewport-units-transform-0.10.1.tgz#a043ee456893770404b1468ac44d7f0cea57d018"
 
 css@^2.2.1:
   version "2.2.1"
@@ -6332,7 +6336,7 @@ metro@^0.30.0:
     xpipe "^1.0.5"
     yargs "^9.0.0"
 
-micro-memoize@^2.0.1:
+micro-memoize@^2.0.1, micro-memoize@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/micro-memoize/-/micro-memoize-2.0.3.tgz#5122131971eae6c69249a8a63a91b7b5cee20111"
 
@@ -7842,12 +7846,20 @@ react-native-css-media-query-processor@^0.14.0:
     deepmerge "^2.1.0"
     micro-memoize "^2.0.1"
 
-react-native-css-transformer@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/react-native-css-transformer/-/react-native-css-transformer-1.1.0.tgz#2e5cad241730b6d516607449e00bba0df25acc49"
+react-native-css-transformer@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-css-transformer/-/react-native-css-transformer-1.2.0.tgz#a003639deeb925901b02ce3557ab2301125cc724"
   dependencies:
-    css-to-react-native-transform "^1.4.0"
+    css-to-react-native-transform "^1.6.0"
     semver "^5.4.1"
+
+react-native-dynamic-style-processor@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/react-native-dynamic-style-processor/-/react-native-dynamic-style-processor-0.10.0.tgz#2e507d9e2b57a54c6c509de3af7d7c2da6397a6c"
+  dependencies:
+    css-viewport-units-transform "^0.10.1"
+    micro-memoize "^2.0.3"
+    react-native-css-media-query-processor "^0.14.0"
 
 react-native-known-styling-properties@^1.0.3:
   version "1.0.3"
