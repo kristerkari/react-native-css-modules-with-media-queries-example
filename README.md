@@ -21,7 +21,7 @@ To see code examples, have a look at [styles.css](/src/styles.css#L222) and [App
 
 #### React Native and Web
 
-- :computer: Uses the same CSS Media Queries for responsive scaling in React Native and Web.
+- :computer: Uses the same CSS Media Queries for responsive scaling in React Native and web browsers.
 - :tada: Allows `className` and `style` properties to be used on React Native elements such as `<Text>` or `<View>`.
 - :fire: CSS Hot loading.
 - :mag: [Custom stylelint config for React Native CSS modules](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
