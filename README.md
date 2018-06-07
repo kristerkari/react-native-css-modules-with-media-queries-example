@@ -21,21 +21,20 @@ To see code examples, have a look at [styles.css](/src/styles.css#L222) and [App
 
 #### React Native and Web
 
-* Uses the same CSS Media Queries for responsive scaling in both React Native and Web.
-* Allows you to use both `className={myStyles.myClass}` and `style={{ color: "red" }}` properties on React Native elements such as `<Text>` or `<View>`.
-* CSS Hot reloading.
-* Uses [Sass](src/Buttons.scss) and [CSS](src/ProfileCard.css) for styles, but you can choose which one to use.
-* [Uses custom stylelint config for React Native CSS modules](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
+- :computer: Uses the same CSS Media Queries for responsive scaling in React Native and Web.
+- :tada: Allows `className` and `style` properties to be used on React Native elements such as `<Text>` or `<View>`.
+- :fire: CSS Hot loading.
+- :mag: [Custom stylelint config for React Native CSS modules](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
 
 #### React Native specific
 
-* Uses [React Native CSS modules](https://github.com/kristerkari/react-native-css-modules)
-* You can use platform specific file extensions, e.g. `styles.ios.scss`, `styles.android.scss`, `styles.native.scss`.
+- :package: Uses [React Native CSS modules](https://github.com/kristerkari/react-native-css-modules)
+- :globe_with_meridians: Platform specific file extensions, e.g. `styles.ios.css`, `styles.android.css`, `styles.native.css`.
 
 #### Web specific
 
-* Uses [Webpack](https://webpack.js.org/) + [CSS modules](https://github.com/css-modules/css-modules).
-* Uses [React Native for Web](https://github.com/necolas/react-native-web) to make most React Native elements work in the browser.
+- :package: Uses [Webpack](https://webpack.js.org/) + [CSS modules](https://github.com/css-modules/css-modules).
+- :wrench: Uses [React Native for Web](https://github.com/necolas/react-native-web) to make most React Native elements work in the browser.
 
 ## Try it
 
@@ -43,7 +42,7 @@ To see code examples, have a look at [styles.css](/src/styles.css#L222) and [App
 
 Make sure that you have `react-native-cli` installed (`npm install -g react-native-cli`) and [XCode](https://developer.apple.com/xcode/) (for iOS development) / [Android Studio](https://developer.android.com/studio/index.html) (for Android development) installed and working.
 
-* Go to "Building Projects with Native Code" tab and follow the guide: https://facebook.github.io/react-native/docs/getting-started.html
+- Go to "Building Projects with Native Code" tab and follow the guide: https://facebook.github.io/react-native/docs/getting-started.html
 
 ### Step 2: Clone the repo and move to project
 
