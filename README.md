@@ -23,13 +23,13 @@ To see code examples, have a look at [styles.css](/src/styles.css#L222) and [App
 
 - :computer: Uses the same CSS Media Queries for responsive scaling in React Native and web browsers.
 - :tada: Allows `className` and `style` properties to be used on React Native elements such as `<Text>` or `<View>`.
-- :fire: CSS Hot loading.
+- :fire: CSS Hot loading (live reloading).
 - :mag: [Custom stylelint config for React Native CSS modules](https://github.com/kristerkari/stylelint-config-react-native-css-modules)
 
 #### React Native specific
 
 - :package: Uses [React Native CSS modules](https://github.com/kristerkari/react-native-css-modules)
-- :globe_with_meridians: Platform specific file extensions, e.g. `styles.ios.css`, `styles.android.css`, `styles.native.css`.
+- :globe_with_meridians: [Platform specific file extensions](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-specific-extensions), e.g. `styles.ios.css`, `styles.android.css`, `styles.native.css`.
 
 #### Web specific
 
