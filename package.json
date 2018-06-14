@@ -22,6 +22,7 @@
     "redux": "^4.0.0"
   },
   "devDependencies": {
+    "autoprefixer": "^8.6.2",
     "babel-core": "^6.26.3",
     "babel-jest": "23.0.0",
     "babel-loader": "^7.1.4",
@@ -34,6 +35,7 @@
     "file-loader": "^1.1.11",
     "jest": "23.0.0",
     "lodash": "^4.17.10",
+    "postcss-loader": "^2.1.5",
     "react-hot-loader": "^4.2.0",
     "react-native-css-transformer": "^1.2.0",
     "react-test-renderer": "16.4.0",
@@ -46,8 +48,20 @@
     "webpack-cli": "^2.1.4",
     "webpack-dev-server": "^3.1.4"
   },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "IE 11",
+    "Android >= 4.4",
+    "iOS >= 8"
+  ],
   "jest": {
     "preset": "react-native"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
   },
   "stylelint": {
     "extends": "stylelint-config-react-native-css-modules",
@@ -59,6 +73,7 @@
       "unit-whitelist": [
         "px",
         "rem",
+        "deg",
         "%"
       ],
       "no-eol-whitespace": true,
