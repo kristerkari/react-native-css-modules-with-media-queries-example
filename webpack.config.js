@@ -2,7 +2,7 @@ const webpack = require("webpack");
 const path = require("path");
 
 module.exports = {
-  entry: ["react-hot-loader/patch", "./index.web.js"],
+  entry: ["./polyfills", "react-hot-loader/patch", "./index.web.js"],
   devServer: {
     hot: true,
   },
@@ -60,6 +60,6 @@ module.exports = {
       "react-native": "react-native-web",
     },
     extensions: [".web.js", ".js", ".web.jsx", ".jsx"],
-    mainFields: ["jsnext:main", "browser", "main"],
+    mainFields: ["browser", "main"],
   },
 };
