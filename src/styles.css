@@ -247,6 +247,14 @@
     flex-direction: column;
   }
 
+  /*
+   - Fix layout on Android Stock browser 4.4/5.0.
+   - This selector is ignored by React Native CSS modules.
+   */
+  .contentSection.contentSection {
+    display: block;
+  }
+
   .mediabox {
     padding: 0 0 35px 0;
     flex-direction: row;
