@@ -45,7 +45,7 @@
     "style-loader": "^0.21.0",
     "stylelint": "^9.3.0",
     "stylelint-config-react-native-css-modules": "^1.4.0",
-    "stylelint-react-native": "^1.1.0",
+    "stylelint-react-native": "^1.1.1",
     "url-loader": "^1.0.1",
     "webpack": "^4.14.0",
     "webpack-cli": "^3.0.8",
