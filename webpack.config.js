@@ -22,7 +22,7 @@ module.exports = {
         loader: "babel-loader",
         query: {
           babelrc: false,
-          presets: ["es2015", "react", "react-native"],
+          presets: ["@babel/env", "react", "react-native"],
           plugins: ["react-hot-loader/babel"],
         },
       },
