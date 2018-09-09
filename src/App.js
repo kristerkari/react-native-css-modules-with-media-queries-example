@@ -1,16 +1,16 @@
 import React, { PureComponent } from "react";
 import {
-  Text,
-  View,
-  SafeAreaView,
   Image,
+  Linking,
+  SafeAreaView,
   ScrollView,
+  Text,
   TouchableHighlight,
-  Linking
+  View
 } from "react-native";
-import styles from "./styles.css";
+import { Content, HeaderNavIcons, Tabs } from "./content";
 import { Icon } from "./Icon";
-import { Content, Tabs, HeaderNavIcons } from "./content";
+import styles from "./styles.css";
 
 const renderNavIcon = (icon, index) => {
   return (

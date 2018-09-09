@@ -1,9 +1,9 @@
 import React from "react";
 import { OrientationChangeProvider } from "react-native-orientation-change-provider";
 import { Provider } from "react-redux";
-import { createStore, combineReducers } from "redux";
-import { tabs } from "./reducers";
+import { combineReducers, createStore } from "redux";
 import App from "./App.container";
+import { tabs } from "./reducers";
 
 const store = createStore(combineReducers({ tabs }));
 
