@@ -8430,9 +8430,9 @@ style-search@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
 
-stylelint-config-react-native-css-modules@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-react-native-css-modules/-/stylelint-config-react-native-css-modules-2.0.0.tgz#70f35021a6bb9001bee2e4c4dae86b6aa17ddd02"
+stylelint-config-react-native-css-modules@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/stylelint-config-react-native-css-modules/-/stylelint-config-react-native-css-modules-2.0.1.tgz#94001c6c4317267b620d70f7bf50fcf04bfcfa65"
 
 stylelint-react-native@^2.0.0:
   version "2.0.0"
