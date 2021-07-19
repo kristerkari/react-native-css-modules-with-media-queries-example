@@ -37,7 +37,7 @@
     "eslint-plugin-css-modules": "^2.11.0",
     "file-loader": "^3.0.1",
     "jest": "24.1.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "metro-react-native-babel-preset": "^0.51.1",
     "postcss-loader": "^3.0.0",
     "react-hot-loader": "3.1.3",
