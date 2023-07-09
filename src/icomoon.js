@@ -1,4 +1,4 @@
-import iconFont from "../android/app/src/main/assets/fonts/icomoon.ttf";
+import iconFont from '../android/app/src/main/assets/fonts/icomoon.ttf';
 
 const iconFontStyles = `@font-face {
   src: url(${iconFont});
@@ -7,8 +7,8 @@ const iconFontStyles = `@font-face {
   font-variant: normal;
 }`;
 
-const style = document.createElement("style");
-style.type = "text/css";
+const style = document.createElement('style');
+style.type = 'text/css';
 if (style.styleSheet) {
   style.styleSheet.cssText = iconFontStyles;
 } else {
