@@ -5,7 +5,7 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "lint": "eslint . && stylelint '**/*.@(css|scss)'",
+    "lint": "eslint . && stylelint 'src/**/*.@(css|scss)'",
     "postinstall": "patch-package",
     "start": "react-native start",
     "test": "jest",
@@ -58,7 +58,7 @@
     "sass-loader": "^13.3.2",
     "style-loader": "^0.23.1",
     "stylelint": "^15.10.1",
-    "stylelint-config-react-native-css-modules": "^3.1.0",
+    "stylelint-config-react-native-css-modules": "^3.2.0",
     "stylelint-react-native": "^2.6.0",
     "url-loader": "^4.1.1",
     "webpack": "^5.88.1",

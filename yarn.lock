@@ -3310,6 +3310,11 @@ commondir@^1.0.1:
   resolved "https://registry.yarnpkg.com/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
   integrity sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==
 
+compare-versions@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/compare-versions/-/compare-versions-6.0.0.tgz#a3edb527e4487bfab9a8b62ffe70cebc9b87675b"
+  integrity sha512-s2MzYxfRsE9f/ow8hjn7ysa7pod1xhHdQMsgiJtKx6XSNf4x2N1KG4fjrkUmXcP/e9Y2ZX4zB6sHIso0Lm6evQ==
+
 compressible@~2.0.16:
   version "2.0.18"
   resolved "https://registry.yarnpkg.com/compressible/-/compressible-2.0.18.tgz#af53cca6b070d4c3c0750fbd77286a6d7cc46fba"
@@ -8216,10 +8221,12 @@ style-search@^0.1.0:
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
   integrity sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==
 
-stylelint-config-react-native-css-modules@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-react-native-css-modules/-/stylelint-config-react-native-css-modules-3.1.0.tgz#c59b1b80f173bcbe5dbc318fb9305bf3e7eca690"
-  integrity sha512-uZKw0DYnWN71Tb2f5vg9RlFP3ftZYLW80juqEkZ6SvUfquKL06rLSDGDRW1s8d0y+KMR292qNEpBHMVTd4lp4g==
+stylelint-config-react-native-css-modules@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-react-native-css-modules/-/stylelint-config-react-native-css-modules-3.2.0.tgz#29791209c1382093d539579b4f833b5c4201e0ef"
+  integrity sha512-jazOAp8O5/dgd65arksG3LeX3N6G9tVL5OUZMzipUspuZY8MXIWHlV6pQi4UKEINMskpjY45R/gfVS52JyYlPw==
+  dependencies:
+    compare-versions "^6.0.0"
 
 stylelint-react-native@^2.6.0:
   version "2.6.0"
