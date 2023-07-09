@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React, {PureComponent} from 'react';
 import {
   Image,
   Linking,
@@ -6,11 +6,11 @@ import {
   ScrollView,
   Text,
   TouchableHighlight,
-  View
-} from "react-native";
-import { Content, HeaderNavIcons, Tabs } from "./content";
-import { Icon } from "./Icon";
-import styles from "./styles.css";
+  View,
+} from 'react-native';
+import {Content, HeaderNavIcons, Tabs} from './content';
+import {Icon} from './Icon';
+import styles from './styles.css';
 
 const renderNavIcon = (icon, index) => {
   return (
@@ -18,8 +18,7 @@ const renderNavIcon = (icon, index) => {
       className={styles.headerNavItem}
       onPress={() => {}}
       underlayColor="rgba(71,163,218,0.5)"
-      key={index}
-    >
+      key={index}>
       <Icon name={icon} size={16} className={styles.headerNavIcon} />
     </TouchableHighlight>
   );
@@ -48,7 +47,7 @@ export class App extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      selected: props.initialSelected
+      selected: props.initialSelected,
     };
   }
 
@@ -62,12 +61,11 @@ export class App extends PureComponent {
             if (isSelected) {
               return;
             }
-            this.setState({ selected: index });
+            this.setState({selected: index});
             this.props.onTabSelect(index);
           }}
           underlayColor="transparent"
-          key={index}
-        >
+          key={index}>
           <View className={styles.link}>
             <Icon
               name={tab.toLowerCase()}
@@ -77,8 +75,7 @@ export class App extends PureComponent {
             <Text
               className={
                 isSelected ? styles.liCurrentLinkText : styles.linkText
-              }
-            >
+              }>
               {tab}
             </Text>
           </View>
@@ -108,13 +105,12 @@ export class App extends PureComponent {
             </View>
             <View className={styles.info}>
               <Text className={styles.infoText}>
-                Food Shapes/Icons by{" "}
+                Food Shapes/Icons by{' '}
                 <Text
                   className={styles.infoLink}
                   onPress={() =>
-                    Linking.openURL("http://psdblast.com/50-food-icon-set-psd")
-                  }
-                >
+                    Linking.openURL('http://psdblast.com/50-food-icon-set-psd')
+                  }>
                   PsdBlast
                 </Text>
               </Text>
