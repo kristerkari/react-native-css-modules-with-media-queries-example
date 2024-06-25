@@ -31,7 +31,7 @@ module.exports = {
             presets: [
               '@babel/preset-env',
               'react',
-              'module:metro-react-native-babel-preset',
+              'module:@react-native/babel-preset',
             ],
             plugins: ['react-hot-loader/babel'],
           },
@@ -57,6 +57,7 @@ module.exports = {
             loader: 'css-loader',
             options: {
               modules: {
+                namedExport: false,
                 localIdentName: '[path]___[name]__[local]___[hash:base64:5]',
               },
             },
