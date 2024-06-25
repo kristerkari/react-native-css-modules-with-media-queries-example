@@ -39,7 +39,7 @@
     "babel-plugin-react-native-platform-specific-extensions": "^1.1.1",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "babel-preset-react": "7.0.0-beta.3",
-    "css-loader": "^6.8.1",
+    "css-loader": "^7.1.2",
     "eslint": "^8.57.0",
     "eslint-plugin-css-modules": "^2.11.0",
     "file-loader": "^6.2.0",
