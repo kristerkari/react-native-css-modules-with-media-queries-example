@@ -22,7 +22,7 @@
     "react-native-orientation-change-provider": "^0.11.4",
     "react-native-vector-icons": "^9.2.0",
     "react-native-web": "^0.19.12",
-    "react-redux": "^8.1.1",
+    "react-redux": "^9.1.2",
     "redux": "^5.0.1"
   },
   "devDependencies": {
