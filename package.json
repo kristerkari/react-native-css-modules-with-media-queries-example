@@ -32,7 +32,7 @@
     "@react-native/eslint-config": "^0.72.2",
     "@react-native/metro-config": "^0.72.7",
     "autoprefixer": "^10.4.14",
-    "babel-jest": "^29.2.1",
+    "babel-jest": "^29.7.0",
     "babel-loader": "^8.0.5",
     "babel-plugin-react-native-classname-to-dynamic-style": "^0.22.0",
     "babel-plugin-react-native-platform-specific-extensions": "^1.1.1",
