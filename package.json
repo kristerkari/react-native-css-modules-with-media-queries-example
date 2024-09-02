@@ -47,7 +47,7 @@
     "jest": "^29.2.1",
     "mini-css-extract-plugin": "^2.9.0",
     "patch-package": "^8.0.0",
-    "postcss": "^8.4.31",
+    "postcss": "^8.4.44",
     "postcss-css-variables": "^0.19.0",
     "postcss-loader": "^8.1.1",
     "prettier": "^3.3.2",
